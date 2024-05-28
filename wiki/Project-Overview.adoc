@@ -15,7 +15,9 @@ Writing a character to the driver triggers playback.
 Reading from the driver retrieves the next character
  entered using the internal button.
 
+image::project-diagram.png[]
 
+////
 [plantuml]
 ----
 skinparam componentStyle rectangle
@@ -31,7 +33,7 @@ driver --> ADC
 driver <-- Button
 
 ----
-
+////
 
 //Include at least one block diagram showing all hardware components and interactions.
 
